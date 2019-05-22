@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/appcompat_v7
+.metadata
+.recommenders
+/RemoteSystemsTempFiles
+/*/bin
+/*/gen
