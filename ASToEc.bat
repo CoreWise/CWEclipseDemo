@@ -26,6 +26,8 @@ xcopy ..\CoreWiseSDK\IDCardSDK\src\main\res .\IDCardSDK\res /s /e /c /y /h /r
 
 xcopy ..\CoreWiseSDK\IDCardSDK\src\main\jnilibs .\IDCardSDK\libs /s /e /c /y /h /r
 
+xcopy ..\CoreWiseSDK\IDCardSDK\src\main\jnilibs .\IDCardSDK\libs /s /e /c /y /h /r
+
 xcopy ..\CoreWiseSDK\IDCardSDK\libs .\IDCardSDK\libs /s /e /c /y /h /r
 
 echo .
@@ -85,6 +87,28 @@ xcopy ..\CoreWiseSDK\R2000UHFSDK\src\main\res .\R2000UHFSDK\res /s /e /c /y /h /
 xcopy ..\CoreWiseSDK\R2000UHFSDK\src\main\jnilibs .\R2000UHFSDK\libs /s /e /c /y /h /r
 
 xcopy ..\CoreWiseSDK\R2000UHFSDK\libs .\R2000UHFSDK\libs /s /e /c /y /h /r
+
+echo ******************开始Copy FpJRASDK ******************
+
+xcopy ..\CoreWiseSDK\FpJRASDK\src\main\AndroidManifest.xml .\FpJRASDK /s /y
+
+xcopy ..\CoreWiseSDK\FpJRASDK\src\main\java .\FpJRASDK\src /s /e /c /y /h /r
+xcopy ..\CoreWiseSDK\FpJRASDK\src\main\res .\FpJRASDK\res /s /e /c /y /h /r
+
+xcopy ..\CoreWiseSDK\FpJRASDK\src\main\jnilibs .\FpJRASDK\libs /s /e /c /y /h /r
+
+xcopy ..\CoreWiseSDK\FpJRASDK\libs .\FpJRASDK\libs /s /e /c /y /h /r
+
+echo ******************开始Copy FpGAASDK ******************
+
+xcopy ..\CoreWiseSDK\FpGAASDK\src\main\AndroidManifest.xml .\FpGAASDK /s /y
+
+xcopy ..\CoreWiseSDK\FpGAASDK\src\main\java .\FpGAASDK\src /s /e /c /y /h /r
+xcopy ..\CoreWiseSDK\FpGAASDK\src\main\res .\FpGAASDK\res /s /e /c /y /h /r
+
+xcopy ..\CoreWiseSDK\FpGAASDK\src\main\jnilibs .\FpGAASDK\libs /s /e /c /y /h /r
+
+xcopy ..\CoreWiseSDK\FpGAASDK\libs .\FpGAASDK\libs /s /e /c /y /h /r
 
 echo ------------------一片绿End！---------------
 
