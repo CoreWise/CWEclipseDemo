@@ -110,6 +110,30 @@ xcopy ..\CoreWiseSDK\FpGAASDK\src\main\jnilibs .\FpGAASDK\libs /s /e /c /y /h /r
 
 xcopy ..\CoreWiseSDK\FpGAASDK\libs .\FpGAASDK\libs /s /e /c /y /h /r
 
+
+echo ******************开始Copy NetReadIdcardSDK ******************
+
+xcopy ..\CoreWiseSDK\NetReadIdcardSDK\src\main\AndroidManifest.xml .\NetReadIdcardSDK /s /y
+
+xcopy ..\CoreWiseSDK\NetReadIdcardSDK\src\main\java .\NetReadIdcardSDK\src /s /e /c /y /h /r
+xcopy ..\CoreWiseSDK\NetReadIdcardSDK\src\main\res .\NetReadIdcardSDK\res /s /e /c /y /h /r
+
+xcopy ..\CoreWiseSDK\NetReadIdcardSDK\src\main\jnilibs .\NetReadIdcardSDK\libs /s /e /c /y /h /r
+
+xcopy ..\CoreWiseSDK\NetReadIdcardSDK\libs .\NetReadIdcardSDK\libs /s /e /c /y /h /r
+
+echo ******************开始Copy NFCLocalIDCardSDK ******************
+
+xcopy ..\CoreWiseSDK\NFCLocalIDCardSDK\src\main\AndroidManifest.xml .\NFCLocalIDCardSDK /s /y
+
+xcopy ..\CoreWiseSDK\NFCLocalIDCardSDK\src\main\java .\NFCLocalIDCardSDK\src /s /e /c /y /h /r
+xcopy ..\CoreWiseSDK\NFCLocalIDCardSDK\src\main\res .\NFCLocalIDCardSDK\res /s /e /c /y /h /r
+
+xcopy ..\CoreWiseSDK\NFCLocalIDCardSDK\src\main\jnilibs .\NFCLocalIDCardSDK\libs /s /e /c /y /h /r
+
+xcopy ..\CoreWiseSDK\NFCLocalIDCardSDK\libs .\NFCLocalIDCardSDK\libs /s /e /c /y /h /r
+
+
 echo ------------------一片绿End！---------------
 
 

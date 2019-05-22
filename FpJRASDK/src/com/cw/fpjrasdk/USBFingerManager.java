@@ -1,6 +1,5 @@
 package com.cw.fpjrasdk;
 
-import android.annotation.SuppressLint;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -117,8 +116,7 @@ public class USBFingerManager {
 
     private class USBReceiver extends BroadcastReceiver {
 
-        @SuppressLint("NewApi")
-		@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+        @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
         @Override
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
@@ -143,8 +141,7 @@ public class USBFingerManager {
                         case "USBKey Chip":
                             getUSBDevice();
                             new Handler().postDelayed(new Runnable() {
-                                @SuppressLint("NewApi")
-								@Override
+                                @Override
                                 public void run() {
                                     if (!mUsbManager.hasPermission(mDevice)) {
                                         mDeviceOpened = false;
@@ -183,8 +180,7 @@ public class USBFingerManager {
     /**
      * 获取指纹设备
      */
-    @SuppressLint("NewApi")
-	private void getUSBDevice() {
+    private void getUSBDevice() {
 
         for (UsbDevice device : mUsbManager.getDeviceList().values()) {
             if (0x2109 == device.getVendorId() && 0x7638 == device.getProductId()) {
@@ -203,8 +199,7 @@ public class USBFingerManager {
     }
 
 
-    @SuppressLint("NewApi")
-	private List<UsbDevice> getDeviceList() {
+    private List<UsbDevice> getDeviceList() {
         HashMap<String, UsbDevice> deviceList = mUsbManager.getDeviceList();
         Iterator<UsbDevice> deviceIterator = deviceList.values().iterator();
         List<UsbDevice> usbDevices = new ArrayList<>();
