@@ -370,8 +370,8 @@ public abstract class NFCReadLocalIDCardActivity extends SerialPortActivity {
         this.sfzBmpPath = sfzBmpPath;
     }
 
-    public String getSDKVersion() {
+/*    public String getSDKVersion() {
         return BuildConfig.VERSION_NAME;
-    }
+    }*/
 
 }
