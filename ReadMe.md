@@ -1,11 +1,8 @@
 ## 说明
 
-**强烈推荐使用Android Studio开发工具，使用aar开发包，如果实在不愿意或者您使用Eclipse和Visual Studio xaramin开发Android应用，可以参考下方说明**
+**强烈推荐使用Android Studio开发工具，使用aar开发包，如果实在不愿意或者您使用Eclipse和Visual Studio xaramin开发Android应用，相关功能的Jar和so可以参考下方说明**
 
 
-
-
-[TOC]
 
 ----
 
@@ -15,47 +12,44 @@
 
 ## SerialPortSDK
 
-- [serialport_sdk_20190612.jar]()
-- [libwltdecode.so]()
-- []()
-
-
+- [serialport_sdk_20190612.jar](https://coding.net/u/CoreWise/p/SDK/git/raw/master/jar/SerialPortSDK/serialport_sdk_20190612.jar)
+- [libwltdecode.so](https://coding.net/u/CoreWise/p/SDK/git/raw/master/jar/SerialPortSDK/libwltdecode.so)
 
 ## BeiDouSDK
 
-
+- []()
 
 
 
 ## FpGAASDK
 
-
+- []()
 
 ## FpJRASDK
 
-
+- []()
 
 ## HXUHFSDK
 
-
+- []()
 
 ## IDCardSDK
 
-
+- []()
 
 ## M1RFIDSDK
 
-
+- []()
 
 ## NetReadIDcardSDK
 
-
+- []()
 
 ## NFCLocalIDCardSDK
 
-
+- []()
 
 ## R2000UHFSDK
 
-
+- []()
 
