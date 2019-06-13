@@ -35,7 +35,9 @@
 
 ## IDCardSDK
 
-- []()
+- [idcard_sdk_20190613.jar](https://coding.net/u/CoreWise/p/SDK/git/raw/master/jar/IDCardSDK/idcard_sdk_20190613.jar)
+- [解密文件 base.dat](https://coding.net/u/CoreWise/p/SDK/git/raw/master/jar/IDCardSDK/base.dat)
+- [授权文件 license.lic](https://coding.net/u/CoreWise/p/SDK/git/raw/master/jar/IDCardSDK/license.lic)
 
 ## M1RFIDSDK
 
